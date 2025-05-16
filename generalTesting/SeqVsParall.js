@@ -35,9 +35,6 @@ async function fetchParallel(params) {
   console.log("\n");
 }
 
-async function runBoth() {
-  fetchParallel();
-  fetchSequential();
-}
+fetchSequential();
 
-runBoth();
+fetchParallel();
